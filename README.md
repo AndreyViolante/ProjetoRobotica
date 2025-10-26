@@ -2,16 +2,6 @@
 
 Portal web para alunos de robótica publicarem seus projetos! 🤖✨
 
-## 🚀 Características
-
-- ✨ Design moderno com Magic UI
-- 📸 Upload de fotos e vídeos
-- 🎨 Escolha de enquadramento de imagens
-- 📝 Descrições para cada mídia
-- 👥 Sistema de login (alunos e professor)
-- 🔒 Painel administrativo para edição/exclusão
-- 🎭 Gradientes vibrantes e animações suaves
-
 ## 📦 Instalação
 ```bash
 # Instalar dependências
@@ -40,30 +30,11 @@ npm run preview
 - Tailwind CSS
 - Lucide Icons
 
-## 📁 Estrutura do Projeto
-```
-src/
-├── components/
-│   ├── auth/         # LoginPage
-│   ├── layout/       # Navbar
-│   ├── project/      # ProjectCard, ProjectForm, ProjectDetails
-│   └── common/       # RobotIcon
-├── pages/            # HomeView
-├── types/            # TypeScript interfaces
-├── data/             # Mock data
-├── utils/            # Utilitários (fileUpload)
-└── App.tsx           # Componente principal
-```
-
 ## 🎨 Personalização
 
 - Cores podem ser modificadas no `tailwind.config.js`
 - Dados mockados estão em `src/data/mockData.ts`
 - Tipos em `src/types/index.ts`
-
-## 📝 Licença
-
-MIT
 
 ---
 
