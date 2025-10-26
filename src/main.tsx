@@ -1,16 +1,12 @@
-import { createRoot } from 'react-dom/client'
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App.tsx'
 import './index.css'
 
-function App() {
-  return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-50">
-      <div className="p-8 rounded-xl shadow-lg bg-white">
-        <h1 className="text-2xl font-bold text-purple-600">Tailwind está funcionando!</h1>
-        <p className="mt-2 text-gray-600">Se você vê cores e espaçamento, o Tailwind foi aplicado.</p>
-      </div>
-    </div>
-  )
-}
+const root = ReactDOM.createRoot(document.getElementById('root')!);
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
 
-const root = createRoot(document.getElementById('root') as HTMLElement)
-root.render(<App />)

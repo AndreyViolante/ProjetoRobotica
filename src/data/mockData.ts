@@ -15,7 +15,7 @@ export const INITIAL_PROJECTS: Project[] = [
     coverImageFit: 'cover',
     gallery: [],
     authorId: '2',
-    authorName: 'João Silva',
+    authorName: 'Gedon',
     createdAt: '2024-10-15',
   },
 ];
